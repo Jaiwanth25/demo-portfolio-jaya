@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c21"/>
+      <stop offset="50%" stop-color="#121215"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGrad)"/>
+  <rect width="400" height="400" rx="36" fill="url(#halo)"/>
+  <rect x="1.5" y="1.5" width="397" height="397" rx="34.5" fill="none" stroke="#27272a" stroke-width="2"/>
+  
+  <g transform="translate(0, 10)">
+    <circle cx="200" cy="155" r="64" fill="#18181b" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="200" cy="155" r="56" fill="#27272a"/>
+    <text x="200" y="165" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="44" fill="url(#accentGrad)" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">JP</text>
+    
+    <path d="M 105 320 C 105 240, 150 225, 200 225 C 250 225, 295 240, 295 320 Z" fill="#18181b" stroke="#3f3f46" stroke-width="3"/>
+    <path d="M 120 320 C 120 255, 158 240, 200 240 C 242 240, 280 255, 280 320 Z" fill="#222226"/>
+    
+    <g transform="translate(200, 310)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#09090b" stroke="#52525b" stroke-width="1.5"/>
+      <text x="0" y="5" font-family="'JetBrains Mono', monospace, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">&lt;CSCE CORE /&gt;</text>
+    </g>
+  </g>
+  
+  <circle cx="36" cy="36" r="3" fill="#52525b"/>
+  <circle cx="364" cy="36" r="3" fill="#52525b"/>
+  <circle cx="36" cy="364" r="3" fill="#52525b"/>
+  <circle cx="364" cy="364" r="3" fill="#52525b"/>
+</svg>

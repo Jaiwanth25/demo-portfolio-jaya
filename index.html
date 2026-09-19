@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayashree P | Student &amp; Aspiring Developer</title>
+  <meta name="description" content="Personal portfolio of Jayashree P - 1st Year CSCE Core student &amp; aspiring developer passionate about Python, C++, and turning curiosity into code.">
+  <meta name="keywords" content="Jayashree P, CSCE Core, Python, C++, Student Developer, Portfolio">
+  <meta name="author" content="Jayashree P">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white font-inter antialiased">
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container flex-center">
+      <span class="status-dot"></span>
+      <p class="announcement-text">
+        <strong>1st Year CSCE Core Student</strong> &bull; Turning curiosity, ideas, and code into possibilities
+      </p>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Bar -->
+  <header id="navbar" class="header sticky-nav">
+    <div class="container nav-container">
+      <!-- Logo Monogram -->
+      <a href="#home" class="logo-group" aria-label="Jayashree P Home">
+        <div class="logo-box curved-box">
+          <span class="logo-initials">JP</span>
+        </div>
+        <div class="logo-text-wrap">
+          <span class="logo-name">JAYASHREE P</span>
+          <span class="logo-sub">Student &bull; Aspiring Developer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links (All 7 Sections) -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline curved-btn">
+          <span>Let's Connect</span>
+          <svg class="btn-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-list">
+          <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#education" class="mobile-nav-link">Education</a></li>
+          <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a href="#contact" class="btn btn-primary btn-full curved-btn mobile-cta-close">Contact Me</a>
+          <div class="mobile-socials">
+            <a href="mailto:sshree1106@gmail.com" class="mobile-social-icon curved-box" aria-label="Email Jayashree">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jayashree-p-18a6a8438" target="_blank" rel="noopener noreferrer" class="mobile-social-icon curved-box" aria-label="LinkedIn Profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="tel:8056141267" class="mobile-social-icon curved-box" aria-label="Call Jayashree">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         SECTION 1: HOME (HERO)
+         ========================================== -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero-curved-card curved-card reveal-up">
+          <div class="hero-grid">
+            
+            <!-- Left Hero Content -->
+            <div class="hero-text-block">
+              
+              <!-- Badge -->
+              <div class="hero-badge curved-chip">
+                <span class="badge-pulse"></span>
+                <span class="badge-text">Student &bull; Aspiring Developer</span>
+              </div>
+
+              <!-- Main Name -->
+              <h1 class="hero-name">JAYASHREE P</h1>
+              
+              <!-- Tagline Role -->
+              <p class="hero-role">Student | Aspiring Developer</p>
+
+              <!-- Main Introduction -->
+              <div class="hero-intro-box">
+                <p class="hero-main-intro">
+                  &ldquo;I don’t just want to learn how technology works — I want to build with it.&rdquo;
+                </p>
+                <p class="hero-supporting-text">
+                  Currently turning curiosity, ideas, and code into my journey as a developer.
+                </p>
+              </div>
+
+              <!-- Featured Quote Callout Card -->
+              <div class="featured-quote-card curved-card">
+                <div class="quote-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" class="quote-svg"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <blockquote class="featured-quote-text">
+                  &ldquo;I turn curiosity into code, and ideas into possibilities.&rdquo;
+                </blockquote>
+              </div>
+
+              <!-- Action CTA Buttons -->
+              <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary btn-curved">
+                  <span>Explore My Work</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-curved">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>Contact Me</span>
+                </a>
+              </div>
+
+              <!-- Quick Connect Chips -->
+              <div class="quick-chips-row">
+                <span class="chips-label">Direct Links:</span>
+                <a href="mailto:sshree1106@gmail.com" class="curved-chip quick-chip" title="Email Jayashree">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>sshree1106@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/jayashree-p-18a6a8438" target="_blank" rel="noopener noreferrer" class="curved-chip quick-chip" title="LinkedIn Profile">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="tel:8056141267" class="curved-chip quick-chip" title="Phone">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>8056141267</span>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Right Hero Visual / Profile Photo -->
+            <div class="hero-visual-block">
+              <div class="profile-card-wrapper">
+                <div class="profile-image-container curved-box">
+                  <img 
+                    src="assets/profile.jpg" 
+                    alt="Jayashree P - 1st Year CSCE Core Student &amp; Aspiring Developer" 
+                    class="profile-photo"
+                    onerror="this.onerror=null; this.src='assets/profile-placeholder.svg';"
+                  >
+                  <div class="image-overlay-glow" aria-hidden="true"></div>
+                </div>
+
+                <div class="floating-pill pill-top-right curved-card">
+                  <span class="pill-icon">💻</span>
+                  <div class="pill-info">
+                    <span class="pill-title">Python &amp; C++</span>
+                    <span class="pill-desc">Programming Skills</span>
+                  </div>
+                </div>
+
+                <div class="floating-pill pill-bottom-left curved-card">
+                  <span class="pill-icon">🎓</span>
+                  <div class="pill-info">
+                    <span class="pill-title">1st Year CSCE Core</span>
+                    <span class="pill-desc">Currently Studying</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 2: ABOUT ME
+         ========================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">01 / Profile</div>
+          <h2 class="section-title">ABOUT ME</h2>
+          <p class="section-subtitle">
+            An aspiring developer at the threshold of computer science, driven by curiosity, code, and practical problem solving.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-main-card curved-card reveal-up">
+            <div class="card-glow" aria-hidden="true"></div>
+            
+            <h3 class="about-heading">Building Strong Foundations in Computer Science</h3>
+            
+            <p class="about-paragraph">
+              I am currently a <strong>1st Year CSCE Core</strong> student with a deep enthusiasm for understanding how technology works and applying that understanding to build practical software solutions.
+            </p>
+
+            <p class="about-paragraph">
+              I am actively developing my programming skills in <strong>Python</strong> and <strong>C++</strong>, strengthening my fundamental problem-solving abilities, algorithmic logic, and object-oriented thinking through hands-on practice.
+            </p>
+
+            <p class="about-paragraph">
+              In addition to my academic degree coursework, I have completed a <strong>DCA – Diploma in Computer Applications</strong> as an additional qualification, giving me early structured familiarity with computer fundamentals, operating systems, and digital productivity applications.
+            </p>
+
+            <div class="pillars-grid">
+              
+              <div class="pillar-box curved-box">
+                <div class="pillar-icon-wrap curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+                </div>
+                <div class="pillar-text">
+                  <h4 class="pillar-title">Curiosity About Technology</h4>
+                  <p class="pillar-desc">Passionate about exploring the mechanics of computing and software design.</p>
+                </div>
+              </div>
+
+              <div class="pillar-box curved-box">
+                <div class="pillar-icon-wrap curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div class="pillar-text">
+                  <h4 class="pillar-title">Learning Programming</h4>
+                  <p class="pillar-desc">Dedicated daily practice building logic, syntax, and algorithmic reasoning in Python &amp; C++.</p>
+                </div>
+              </div>
+
+              <div class="pillar-box curved-box">
+                <div class="pillar-icon-wrap curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <div class="pillar-text">
+                  <h4 class="pillar-title">Building Things with Code</h4>
+                  <p class="pillar-desc">Focused on translating conceptual knowledge into practical, working software.</p>
+                </div>
+              </div>
+
+              <div class="pillar-box curved-box">
+                <div class="pillar-icon-wrap curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="2" x2="12" y2="6"></line><line x1="12" y1="18" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line></svg>
+                </div>
+                <div class="pillar-text">
+                  <h4 class="pillar-title">Developing as a Software Developer</h4>
+                  <p class="pillar-desc">Committed to continuous growth, disciplined study, and turning ideas into possibilities.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="journey-card curved-card reveal-up">
+            <div class="card-glow" aria-hidden="true"></div>
+            
+            <div class="journey-card-header">
+              <span class="journey-badge curved-chip">My Journey</span>
+              <h3 class="journey-title">Growth Timeline</h3>
+              <p class="journey-subtitle">A clear visual roadmap of my learning and development milestones.</p>
+            </div>
+
+            <div class="timeline-container">
+              
+              <div class="timeline-step">
+                <div class="timeline-marker-col">
+                  <div class="timeline-node active-node"></div>
+                  <div class="timeline-stem"></div>
+                </div>
+                <div class="timeline-content-box curved-box">
+                  <div class="timeline-status-tag curved-chip">Current</div>
+                  <h4 class="timeline-item-title">1st Year CSCE Core Student</h4>
+                  <p class="timeline-item-desc">
+                    Engaged in core first-year computer science and engineering coursework, building mathematical and computational fundamentals.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <div class="timeline-marker-col">
+                  <div class="timeline-node"></div>
+                  <div class="timeline-stem"></div>
+                </div>
+                <div class="timeline-content-box curved-box">
+                  <div class="timeline-status-tag curved-chip">Additional Learning</div>
+                  <h4 class="timeline-item-title">DCA – Diploma in Computer Applications</h4>
+                  <p class="timeline-item-desc">
+                    Completed formal diploma qualification covering computer applications, software utilities, and operating principles.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <div class="timeline-marker-col">
+                  <div class="timeline-node"></div>
+                  <div class="timeline-stem"></div>
+                </div>
+                <div class="timeline-content-box curved-box">
+                  <div class="timeline-status-tag curved-chip">Current Programming</div>
+                  <h4 class="timeline-item-title">Python &amp; C++</h4>
+                  <p class="timeline-item-desc">
+                    Actively developing core programming skills, logic building, object-oriented concepts, and algorithmic problem-solving.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <div class="timeline-marker-col">
+                  <div class="timeline-node future-node"></div>
+                </div>
+                <div class="timeline-content-box curved-box future-box">
+                  <div class="timeline-status-tag future-tag curved-chip">Future</div>
+                  <h4 class="timeline-item-title">Continue Learning &amp; Building Projects</h4>
+                  <p class="timeline-item-desc">
+                    Continue learning, building practical software projects, expanding technical breadth, and growing as a developer.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 3: SKILLS
+         ========================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">02 / Capabilities</div>
+          <h2 class="section-title">SKILLS</h2>
+          <p class="section-subtitle">
+            Focused on building authentic depth in core programming languages and foundational qualifications.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skill-card curved-card reveal-up">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap curved-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-5l4.5 2.5-4.5 2.5z"/>
+                </svg>
+              </div>
+              <span class="skill-category-badge curved-chip">Programming Language</span>
+            </div>
+
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-description">
+              Core programming language used for developing logical problem-solving abilities, algorithmic thinking, scripting, and modular code writing.
+            </p>
+
+            <div class="skill-highlights">
+              <span class="skill-pill curved-chip">Data Types &amp; Flow Control</span>
+              <span class="skill-pill curved-chip">Functions &amp; Modularity</span>
+              <span class="skill-pill curved-chip">Logic Building</span>
+              <span class="skill-pill curved-chip">Algorithm Foundations</span>
+            </div>
+          </div>
+
+          <div class="skill-card curved-card reveal-up">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap curved-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="skill-category-badge curved-chip">Systems &amp; OOP</span>
+            </div>
+
+            <h3 class="skill-name">C++</h3>
+            <p class="skill-description">
+              High-performance language focused on object-oriented programming concepts, algorithmic efficiency, memory fundamentals, and computational structure.
+            </p>
+
+            <div class="skill-highlights">
+              <span class="skill-pill curved-chip">Object-Oriented Design</span>
+              <span class="skill-pill curved-chip">Pointers &amp; Memory</span>
+              <span class="skill-pill curved-chip">Computational Logic</span>
+              <span class="skill-pill curved-chip">Standard Library (STL)</span>
+            </div>
+          </div>
+
+          <div class="skill-card curved-card reveal-up">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap curved-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <span class="skill-category-badge curved-chip">Additional Qualification</span>
+            </div>
+
+            <h3 class="skill-name">DCA (Diploma in Computer Applications)</h3>
+            <p class="skill-description">
+              Comprehensive diploma covering computer applications fundamentals, software utilities, operating systems, and practical digital computing tools.
+            </p>
+
+            <div class="skill-highlights">
+              <span class="skill-pill curved-chip">Computer Applications</span>
+              <span class="skill-pill curved-chip">Operating Systems</span>
+              <span class="skill-pill curved-chip">Productivity Software</span>
+              <span class="skill-pill curved-chip">Digital Literacy</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="expandable-notice curved-card reveal-up">
+          <div class="notice-flex">
+            <div class="notice-icon-box curved-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <div class="notice-content">
+              <h4 class="notice-title">Easily Expandable Technical Portfolio</h4>
+              <p class="notice-text">
+                As I advance through my 1st Year CSCE Core studies and practical coding projects, additional programming languages, modern frameworks, and engineering tools will be updated here.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 4: PROJECTS
+         ========================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">03 / Portfolio Work</div>
+          <h2 class="section-title">PROJECTS</h2>
+          <p class="section-subtitle">
+            Practical development builds, algorithm implementations, and upcoming software projects.
+          </p>
+        </div>
+
+        <div class="building-hero-card curved-card reveal-up">
+          <div class="building-grid">
+            
+            <div class="building-icon-col">
+              <div class="building-icon-large curved-box">
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                  <path d="m9 8 2 2-2 2"></path>
+                  <line x1="13" y1="12" x2="15" y2="12"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="building-text-col">
+              <div class="building-badge-row">
+                <span class="live-pulse-dot"></span>
+                <span class="building-badge curved-chip">Currently Building &bull; Projects Coming Soon</span>
+              </div>
+              <h3 class="building-title">Currently Developing My Programming Knowledge</h3>
+              <p class="building-desc">
+                I am actively developing my programming foundations in <strong>Python</strong> and <strong>C++</strong>. As I build projects, complete source code repositories, detailed documentation, and live demonstrations will be published right here.
+              </p>
+
+              <div class="building-tracks">
+                <div class="track-item curved-chip">
+                  <span class="track-dot"></span>
+                  <span>Algorithmic Problem Solving (Active)</span>
+                </div>
+                <div class="track-item curved-chip">
+                  <span class="track-dot"></span>
+                  <span>Python Application Development (In Progress)</span>
+                </div>
+                <div class="track-item curved-chip">
+                  <span class="track-dot"></span>
+                  <span>C++ Systems &amp; Logic Builds (In Progress)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="project-blueprints-header reveal-up">
+          <h4 class="blueprints-heading">Project Showcase Structure</h4>
+          <p class="blueprints-sub">Future projects will be cataloged with full technical details, repository links, and live demos.</p>
+        </div>
+
+        <div class="projects-preview-grid">
+          
+          <div class="blueprint-card curved-card reveal-up">
+            <div class="blueprint-top">
+              <div class="blueprint-tag curved-chip">Python Build</div>
+              <span class="blueprint-status curved-chip">In Development</span>
+            </div>
+            
+            <h3 class="blueprint-title">Upcoming Python Project</h3>
+            <p class="blueprint-desc">
+              Application focused on data structures, automation scripting, or computational problem solving built using Python.
+            </p>
+
+            <div class="blueprint-tech-stack">
+              <span class="tech-pill curved-chip">Python</span>
+              <span class="tech-pill curved-chip">Algorithms</span>
+              <span class="tech-pill curved-chip">Git / GitHub</span>
+            </div>
+
+            <div class="blueprint-actions">
+              <button class="btn btn-sm btn-disabled curved-btn" disabled title="Will be active once project is published">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository (Coming Soon)</span>
+              </button>
+              <button class="btn btn-sm btn-disabled curved-btn" disabled title="Will be active once project is published">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                <span>Live Demo (Coming Soon)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="blueprint-card curved-card reveal-up">
+            <div class="blueprint-top">
+              <div class="blueprint-tag curved-chip">C++ Build</div>
+              <span class="blueprint-status curved-chip">In Development</span>
+            </div>
+            
+            <h3 class="blueprint-title">Upcoming C++ Project</h3>
+            <p class="blueprint-desc">
+              High-efficiency software module emphasizing object-oriented structure, memory management, and computational logic in C++.
+            </p>
+
+            <div class="blueprint-tech-stack">
+              <span class="tech-pill curved-chip">C++</span>
+              <span class="tech-pill curved-chip">OOP Concepts</span>
+              <span class="tech-pill curved-chip">Data Structures</span>
+            </div>
+
+            <div class="blueprint-actions">
+              <button class="btn btn-sm btn-disabled curved-btn" disabled title="Will be active once project is published">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository (Coming Soon)</span>
+              </button>
+              <button class="btn btn-sm btn-disabled curved-btn" disabled title="Will be active once project is published">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                <span>Documentation (Coming Soon)</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 5: EDUCATION
+         ========================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">04 / Academics</div>
+          <h2 class="section-title">EDUCATION</h2>
+          <p class="section-subtitle">
+            Academic background and formal training in computing disciplines.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          
+          <div class="education-card curved-card reveal-up">
+            <div class="education-card-top">
+              <div class="education-icon-box curved-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <span class="status-pill-active curved-chip">
+                <span class="status-dot"></span>
+                Status: Currently Studying
+              </span>
+            </div>
+
+            <div class="education-meta-row">
+              <span class="education-level">Undergraduate Engineering Coursework</span>
+            </div>
+
+            <h3 class="education-title">1st Year CSCE Core</h3>
+            
+            <p class="education-description">
+              Engaged in first-year computer science and computer engineering core subjects, focusing on engineering mathematics, algorithmic logic, computer systems, and programming methodologies.
+            </p>
+
+            <div class="education-details-list">
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Computer Science &amp; Computer Engineering foundations</span>
+              </div>
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Problem solving and algorithmic logic development</span>
+              </div>
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Current undergraduate studies in progress</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-card curved-card reveal-up">
+            <div class="education-card-top">
+              <div class="education-icon-box curved-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <span class="status-pill-completed curved-chip">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Status: Completed
+              </span>
+            </div>
+
+            <div class="education-meta-row">
+              <span class="education-level">Additional Course / Diploma Qualification</span>
+            </div>
+
+            <h3 class="education-title">DCA – Diploma in Computer Applications</h3>
+            
+            <p class="education-description">
+              Successfully completed comprehensive diploma program covering foundational computer operations, practical software applications, operating systems, and digital computing tools.
+            </p>
+
+            <div class="education-details-list">
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Comprehensive computer applications training</span>
+              </div>
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Practical software tools &amp; operating principles</span>
+              </div>
+              <div class="edu-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Completed qualification</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 6: ACHIEVEMENTS & CERTIFICATIONS
+         ========================================== -->
+    <section id="achievements" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">05 / Credentials</div>
+          <h2 class="section-title">ACHIEVEMENTS &amp; CERTIFICATIONS</h2>
+          <p class="section-subtitle">
+            Recognized qualifications and upcoming technical milestones.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <div class="achievement-card curved-card reveal-up">
+            <div class="achievement-header">
+              <div class="achievement-icon-wrap curved-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="achievement-status-badge curved-chip">Completed &bull; Verified</span>
+            </div>
+
+            <div class="achievement-type">Formal Certification</div>
+            <h3 class="achievement-title">DCA – Diploma in Computer Applications</h3>
+            
+            <p class="achievement-desc">
+              Diploma qualification validating foundational competencies in computer applications, system software, digital data handling, and essential computing tools.
+            </p>
+
+            <div class="achievement-tags">
+              <span class="achieve-pill curved-chip">Computer Applications</span>
+              <span class="achieve-pill curved-chip">System Utilities</span>
+              <span class="achieve-pill curved-chip">Completed</span>
+            </div>
+          </div>
+
+          <div class="achievement-card milestones-card curved-card reveal-up">
+            <div class="achievement-header">
+              <div class="achievement-icon-wrap curved-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                  <path d="M4 22h16"></path>
+                  <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34c3.27-.67 5.5-3.34 5.5-6.66V4H5.5v4c0 3.32 2.23 5.99 5.5 6.66z"></path>
+                </svg>
+              </div>
+              <span class="achievement-status-badge future-badge curved-chip">Upcoming</span>
+            </div>
+
+            <div class="achievement-type">Roadmap &amp; Goals</div>
+            <h3 class="achievement-title">More milestones coming soon.</h3>
+            
+            <p class="achievement-desc">
+              Actively preparing to participate in coding competitions, hackathons, technical workshops, and specialized developer certifications throughout my CSCE Core journey.
+            </p>
+
+            <div class="milestone-categories">
+              <span class="milestone-pill curved-chip">&bull; Hackathons</span>
+              <span class="milestone-pill curved-chip">&bull; Competitions</span>
+              <span class="milestone-pill curved-chip">&bull; Workshops</span>
+              <span class="milestone-pill curved-chip">&bull; Certifications</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECTION 7: CONTACT
+         ========================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="section-tag curved-chip">06 / Connect</div>
+          <h2 class="section-title">CONTACT</h2>
+          <p class="section-subtitle">
+            Feel free to reach out for collaborations, discussions, or mentorship opportunities.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-info-col reveal-up">
+            
+            <div class="contact-info-intro curved-card">
+              <h3 class="contact-card-title">Let's Connect</h3>
+              <p class="contact-card-desc">
+                Whether you have questions, feedback, learning resources, or internship opportunities for a dedicated first-year student developer, I would love to hear from you.
+              </p>
+            </div>
+
+            <div class="contact-cards-stack">
+              
+              <div class="contact-item-card curved-card">
+                <div class="contact-item-icon curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">Email</span>
+                  <a href="mailto:sshree1106@gmail.com" class="contact-item-value">sshree1106@gmail.com</a>
+                </div>
+                <button class="copy-btn curved-chip" data-copy="sshree1106@gmail.com" title="Copy email address" aria-label="Copy Email">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <div class="contact-item-card curved-card">
+                <div class="contact-item-icon curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">Phone</span>
+                  <a href="tel:8056141267" class="contact-item-value">8056141267</a>
+                </div>
+                <button class="copy-btn curved-chip" data-copy="8056141267" title="Copy phone number" aria-label="Copy Phone">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <div class="contact-item-card curved-card">
+                <div class="contact-item-icon curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/jayashree-p-18a6a8438" target="_blank" rel="noopener noreferrer" class="contact-item-value">jayashree-p-18a6a8438</a>
+                </div>
+                <a href="https://www.linkedin.com/in/jayashree-p-18a6a8438" target="_blank" rel="noopener noreferrer" class="link-external-btn curved-chip" title="Open LinkedIn Profile" aria-label="Open LinkedIn Profile">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  <span>Open</span>
+                </a>
+              </div>
+
+              <div class="contact-item-card curved-card github-placeholder-card">
+                <div class="contact-item-icon curved-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-item-label">GitHub</span>
+                  <span class="contact-placeholder-text">Placeholder for GitHub profile</span>
+                </div>
+                <span class="placeholder-tag curved-chip">Coming Soon</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="contact-form-col reveal-up">
+            <div class="form-container curved-card">
+              
+              <div class="form-header">
+                <h3 class="form-title">Send a Message</h3>
+                <p class="form-subtitle">Fill out the form below to initiate communication.</p>
+              </div>
+
+              <form id="portfolio-contact-form" class="contact-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Name <span class="required-star">*</span></label>
+                  <div class="input-wrapper curved-box">
+                    <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    <input type="text" id="form-name" name="name" class="form-input" placeholder="Your Full Name" required>
+                  </div>
+                  <span class="form-error-msg" id="name-error">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email <span class="required-star">*</span></label>
+                  <div class="input-wrapper curved-box">
+                    <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <input type="email" id="form-email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                  </div>
+                  <span class="form-error-msg" id="email-error">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Message <span class="required-star">*</span></label>
+                  <div class="input-wrapper textarea-wrapper curved-box">
+                    <textarea id="form-message" name="message" class="form-textarea" rows="4" placeholder="Write your message, project idea, or inquiry here..." required></textarea>
+                  </div>
+                  <span class="form-error-msg" id="message-error">Please enter your message</span>
+                </div>
+
+                <div class="form-notice">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <span>Form is structured for direct email dispatch &amp; backend connection.</span>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn btn-primary btn-full btn-curved">
+                  <span class="btn-text">Send Message</span>
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+
+              </form>
+
+              <div id="form-success-box" class="form-success-feedback curved-box" style="display: none;">
+                <div class="feedback-icon curved-box">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h4 class="feedback-title">Message Ready to Send!</h4>
+                <p class="feedback-text">
+                  Thank you! Your message details have been formatted. You can launch your mail client directly to complete sending to <strong>sshree1106@gmail.com</strong>:
+                </p>
+                <a id="mailto-direct-link" href="#" class="btn btn-outline btn-curved btn-sm">Launch Default Mail App</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-curved-card curved-card reveal-up">
+        <div class="footer-top-row">
+          
+          <div class="footer-brand-col">
+            <div class="footer-logo-wrap">
+              <span class="footer-logo-box curved-box">JP</span>
+              <div>
+                <h3 class="footer-brand-name">JAYASHREE P</h3>
+                <p class="footer-role">Student | Aspiring Developer</p>
+              </div>
+            </div>
+            <p class="footer-quote">
+              &ldquo;I turn curiosity into code, and ideas into possibilities.&rdquo;
+            </p>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Quick Navigation</h4>
+            <ul class="footer-links-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-connect-col">
+            <h4 class="footer-col-title">Connect Directly</h4>
+            <ul class="footer-contact-list">
+              <li>
+                <a href="mailto:sshree1106@gmail.com" class="footer-contact-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>sshree1106@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jayashree-p-18a6a8438" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <span>LinkedIn Profile</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:8056141267" class="footer-contact-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>8056141267</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom-row">
+          <p class="copyright-text">&copy; 2026 Jayashree P. All rights reserved.</p>
+          <a href="#home" class="back-to-top-btn curved-chip" aria-label="Back to top">
+            <span>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast-notification curved-box" role="status" aria-live="polite">
+    <svg class="toast-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

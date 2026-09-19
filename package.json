@@ -1,0 +1,16 @@
+{
+  "name": "jayashree-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Jayashree P - 1st Year CSCE Core Student",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "jayashree",
+    "csce",
+    "developer"
+  ],
+  "author": "Jayashree P",
+  "license": "MIT"
+}
