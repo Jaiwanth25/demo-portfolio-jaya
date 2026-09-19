@@ -3,7 +3,6 @@
    Theme: Classy Black and White / Monochrome with Curved Boxes
    ========================================================================== */
 
-/* --- CSS Variables --- */
 :root {
   --bg-black: #050507;
   --bg-canvas: #09090b;
@@ -41,7 +40,6 @@
   --trans-slow: 500ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* --- Base & Reset --- */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -93,7 +91,6 @@ ul, ol {
   list-style: none;
 }
 
-/* --- Utilities --- */
 .container {
   width: 100%;
   max-width: 1180px;
@@ -109,7 +106,6 @@ ul, ol {
   position: relative;
 }
 
-/* --- Curved Aesthetics --- */
 .curved-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
@@ -153,7 +149,6 @@ ul, ol {
   border-radius: var(--radius-full);
 }
 
-/* Top Progress Bar */
 .scroll-progress-bar {
   position: fixed;
   top: 0;
@@ -165,7 +160,6 @@ ul, ol {
   transition: width 0.1s linear;
 }
 
-/* Announcement Bar */
 .top-announcement {
   background: #0b0b0e;
   border-bottom: 1px solid var(--border-subtle);
@@ -199,7 +193,6 @@ ul, ol {
   50% { opacity: 0.4; transform: scale(0.85); }
 }
 
-/* --- Header & Navigation --- */
 .sticky-nav {
   position: sticky;
   top: 0;
@@ -306,7 +299,6 @@ ul, ol {
   gap: 0.75rem;
 }
 
-/* --- Buttons --- */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -375,7 +367,6 @@ ul, ol {
   width: 100%;
 }
 
-/* Mobile Nav */
 .mobile-menu-btn {
   display: none;
   flex-direction: column;
@@ -488,7 +479,6 @@ ul, ol {
   border-radius: var(--radius-md);
 }
 
-/* --- Section Headers --- */
 .section-header {
   text-align: center;
   max-width: 760px;
@@ -518,7 +508,7 @@ ul, ol {
   line-height: 1.6;
 }
 
-/* --- SECTION 1: HERO --- */
+/* Hero Section */
 .hero-section {
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
@@ -647,7 +637,7 @@ ul, ol {
   font-size: 0.82rem;
 }
 
-/* Profile Visual */
+/* Profile Photo Framing */
 .hero-visual-block {
   display: flex;
   justify-content: center;
@@ -656,12 +646,12 @@ ul, ol {
 .profile-card-wrapper {
   position: relative;
   width: 100%;
-  max-width: 340px;
+  max-width: 330px;
 }
 
 .profile-image-container {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   background: #18181c;
   border: 2px solid var(--border-medium);
   border-radius: var(--radius-xl);
@@ -674,14 +664,14 @@ ul, ol {
 .profile-image-container:hover {
   border-color: #ffffff;
   transform: translateY(-4px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(255, 255, 255, 0.12);
 }
 
 .profile-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 15%;
   display: block;
 }
 
@@ -736,7 +726,7 @@ ul, ol {
   color: var(--text-muted);
 }
 
-/* --- SECTION 2: ABOUT ME --- */
+/* About Me */
 .about-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -905,7 +895,7 @@ ul, ol {
   line-height: 1.5;
 }
 
-/* --- SECTION 3: SKILLS --- */
+/* Skills */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1008,7 +998,7 @@ ul, ol {
   color: var(--text-muted);
 }
 
-/* --- SECTION 4: PROJECTS --- */
+/* Projects */
 .building-hero-card {
   background: linear-gradient(135deg, #121216 0%, #0d0d10 100%);
   border: 1.5px solid var(--border-strong);
@@ -1169,7 +1159,7 @@ ul, ol {
   gap: 0.75rem;
 }
 
-/* --- SECTION 5: EDUCATION --- */
+/* Education */
 .education-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1264,7 +1254,7 @@ ul, ol {
   flex-shrink: 0;
 }
 
-/* --- SECTION 6: ACHIEVEMENTS --- */
+/* Achievements */
 .achievements-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1338,7 +1328,7 @@ ul, ol {
   font-size: 0.8rem;
 }
 
-/* --- SECTION 7: CONTACT --- */
+/* Contact */
 .contact-grid {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
@@ -1428,7 +1418,6 @@ ul, ol {
   flex-shrink: 0;
 }
 
-/* Contact Form */
 .form-header {
   margin-bottom: 1.5rem;
 }
@@ -1577,7 +1566,7 @@ ul, ol {
   max-width: 380px;
 }
 
-/* --- FOOTER --- */
+/* Footer */
 .footer {
   padding-top: 3rem;
   padding-bottom: 3.5rem;
@@ -1698,7 +1687,7 @@ ul, ol {
   font-weight: 600;
 }
 
-/* --- Toast Notification --- */
+/* Toast */
 .toast-notification {
   position: fixed;
   bottom: 2rem;
@@ -1731,7 +1720,7 @@ ul, ol {
   color: #ffffff;
 }
 
-/* --- Scroll Reveal Animations --- */
+/* Scroll Reveal */
 .reveal-up {
   opacity: 0;
   transform: translateY(30px);
@@ -1743,7 +1732,7 @@ ul, ol {
   transform: translateY(0);
 }
 
-/* --- Responsive Media Queries --- */
+/* Responsive Media Queries */
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
